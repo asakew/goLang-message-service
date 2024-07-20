@@ -3,8 +3,6 @@
 ### Технологии
 * go@1.22.5: https://go.dev/doc/install
 ```bash
-mkdir message-service
-cd message-service
 go mod init message-service
 go get github.com/gin-gonic/gin
 go get github.com/jackc/pgx/v4
