@@ -1,7 +1,8 @@
 # goLang-message-service
 
 ### Технологии
-* go@1.22.5: https://go.dev/doc/install
+* goLand@2022.2.3: https://www.jetbrains.com/go/
+  * go@1.22.5: https://go.dev/doc/install
 ```bash
 go mod init message-service
 go get github.com/gin-gonic/gin
@@ -14,6 +15,7 @@ go get github.com/segmentio/kafka-go
 ______________________________________________________
 
 ### хранения конфигурации: .env
+```
 DB_HOST=localhost
 DB_PORT=5432
 DB_USER=yourusername
@@ -21,3 +23,4 @@ DB_PASSWORD=yourpassword
 DB_NAME=yourdbname
 KAFKA_BROKER=localhost:9092
 KAFKA_TOPIC=messages
+```
