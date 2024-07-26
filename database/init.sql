@@ -1,6 +1,6 @@
 CREATE TABLE messages (
     id SERIAL PRIMARY KEY,
-    content TEXT NOT NULL,
-    processed BOOLEAN DEFAULT FALSE,
-    created_at TIMESTAMP NOT NULL
+    name VARCHAR(100),
+    email VARCHAR(100),
+    message TEXT
 );
